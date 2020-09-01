@@ -2,7 +2,7 @@
 
 #include "TestingBattleGroundsGameMode.h"
 #include "TestingBattleGroundsHUD.h"
-#include "TestingBattleGroundsCharacter.h"
+#include "Player/FirstPersonCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 ATestingBattleGroundsGameMode::ATestingBattleGroundsGameMode()
