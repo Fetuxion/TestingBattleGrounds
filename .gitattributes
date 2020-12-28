@@ -1,1 +1,1 @@
-Content/Static-(Git-LFS)/** filter=lfs diff=lfs merge=lfs -text
+Content/Static-GitLFS/** filter=lfs diff=lfs merge=lfs -text
