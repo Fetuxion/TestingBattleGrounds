@@ -9,12 +9,13 @@ AThirdPersonCharacter::AThirdPersonCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+	/*
 	// Create a gun mesh component
 	FP_Gun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("FP_Gun"));
 	FP_Gun->bCastDynamicShadow = false;
 	FP_Gun->CastShadow = false;
 	FP_Gun->SetupAttachment(GetMesh());
+	*/
 }
 
 // Called when the game starts or when spawned
@@ -23,7 +24,7 @@ void AThirdPersonCharacter::BeginPlay()
 	Super::BeginPlay();
 
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
-	FP_Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+	//FP_Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 
 	GetMesh()->SetHiddenInGame(false, false);
 }

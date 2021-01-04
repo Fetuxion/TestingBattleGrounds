@@ -12,8 +12,8 @@ class TESTINGBATTLEGROUNDS_API AThirdPersonCharacter : public ACharacter
 	GENERATED_BODY()
 	
 	/** Gun mesh: 1st person view (seen only by self) */
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	class USkeletalMeshComponent* FP_Gun;
+	//UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	//class USkeletalMeshComponent* FP_Gun;
 
 public:
 	// Sets default values for this character's properties
