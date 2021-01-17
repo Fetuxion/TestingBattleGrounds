@@ -40,7 +40,6 @@ void AThirdPersonCharacter::Tick(float DeltaTime)
 void AThirdPersonCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
 }
 
 
